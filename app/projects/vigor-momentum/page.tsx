@@ -38,9 +38,13 @@ return (
             nutrition, recovery, and progress. developed a coaching engine that analyses training performance and recovery to provide 
             personalised recommendations and visualize long-term progress.</h1>
 
-        <video className = "mt-6 w-full rounded" autoPlay muted playsInline loop>
-            <source src = "https://oo3s2sd0fht0h7gk.public.blob.vercel-storage.com/vigor_momentum_demo.mp4" type = "video/mp4"/>
-        </video>
+        <iframe 
+            className = "mt-6 aspect-video w-full rounded"
+            src = "https://www.youtube.com/embed/hiF0ycdNOG8?autoplay=1&mute=1&loop=1&playlist=hiF0ycdNOG8&playsinline=1"
+            title = "block brawl demo"
+            allow = "autoplay"
+            allowFullScreen
+        ></iframe>
         
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
           <a href = "mailto:j2355lee@uwaterloo.ca">email</a>

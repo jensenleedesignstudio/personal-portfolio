@@ -30,9 +30,15 @@ return (
             monai, and u-net to identify regions in ct scans. developed an end-to-end pipeline for preprocessing, 
             training, and inference, with a focus on reproducibility and segmentation accuracy.</h1>
 
-        <video className = "mt-6 w-full rounded" autoPlay muted playsInline loop>
-            <source src = "https://oo3s2sd0fht0h7gk.public.blob.vercel-storage.com/3d_liver_segmentation_demo.mp4" type = "video/mp4"/>
-        </video>
+        <iframe 
+            className = "mt-6 aspect-video w-full rounded"
+            src = "https://www.youtube.com/embed/NlUQG9ndlI4?autoplay=1&mute=1&loop=1&playlist=NlUQG9ndlI4&playsinline=1"
+            title = "block brawl demo"
+            allow = "autoplay"
+            allowFullScreen
+        ></iframe>
+        
+        
         
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
           <a href = "mailto:j2355lee@uwaterloo.ca">email</a>
