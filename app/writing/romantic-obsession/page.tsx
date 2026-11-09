@@ -10,7 +10,7 @@ export default function RomanticObsessionPage() {
                     <Link href = "/">jensen lee</Link>
                     <span className = "text-stone-400"> 
                         {" / "}
-                        <Link href = "/writings" className = "hover:underline">writings</Link>
+                        <Link href = "/writing" className = "hover:underline">writings</Link>
                         {" / romantic obsession"}
                     </span>
                 </h1>
