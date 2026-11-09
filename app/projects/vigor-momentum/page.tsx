@@ -21,6 +21,8 @@ return (
 
         <a
         href = "https://jensenleedesignstudio.github.io/Vigor-Momentum-2.0/"
+        target = "_blank"
+        rel = "noopener"
         className="mt-4 inline-block text-stone-500 underline hover:text-stone-50"
         >
         website
@@ -28,6 +30,8 @@ return (
         <span aria-hidden = "true" className = "mx-2 text-stone-500">·</span>
         <a
         href = "https://github.com/jensenleedesignstudio/Vigor-Momentum-2.0"
+        target = "_blank"
+        rel = "noopener"
         className="mt-4 inline-block text-stone-500 underline hover:text-stone-50"
         >
         github

@@ -20,6 +20,8 @@ export default function BlockBrawlPage() {
 
         <a
         href = "https://block-brawl-ecru.vercel.app"
+        target = "_blank"
+        rel = "noopener"
         className="mt-4 inline-block text-stone-500 underline hover:text-stone-50"
         >
         website
@@ -27,6 +29,8 @@ export default function BlockBrawlPage() {
         <span aria-hidden = "true" className = "mx-2 text-stone-500">·</span>
         <a
         href = "https://github.com/jensenleedesignstudio/block-brawl"
+        target = "_blank"
+        rel = "noopener"
         className="mt-4 inline-block text-stone-500 underline hover:text-stone-50"
         >
         github

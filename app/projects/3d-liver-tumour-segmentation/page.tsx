@@ -20,7 +20,9 @@ return (
         <h1 className = "mt-6 text-2xl text-stone-50">3d liver tumour segmentation</h1>
 
         <a
-        href = "https://github.com/jensenleedesignstudio/3d-liver-tumour-segmentation"
+        href = "https://github.com/jensenleedesignstudio/3d-liver-segmentation-project" 
+        target = "_blank"
+        rel = "noopener"
         className="mt-4 inline-block text-stone-500 underline hover:text-stone-50"
         >
         github
