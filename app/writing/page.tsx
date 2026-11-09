@@ -14,6 +14,18 @@ export default function WritingPage() {
                 </header>
 
                 <ul className = "mt-6 space-y-4">
+
+                    <li>
+                        <h2 className = "text-stone-300">
+                            <Link href = "/writing/my-thoughts-on-uni">
+                                my thoughts on university so far
+                            </Link>
+                        </h2>
+                        <p className = "mt-1 text-xs text-stone-400">
+                            waterloo and the breakdown of my first 2 months 
+                        </p>
+                    </li>
+
                     <li>
                         <h2 className = "text-stone-300">
                             <Link href = "/writing/my-thoughts-on-gaming">
@@ -22,6 +34,17 @@ export default function WritingPage() {
                         </h2>
                         <p className = "mt-1 text-xs text-stone-400">
                             a reflection on gaming and its impact on my life
+                        </p>
+                    </li>
+
+                    <li>
+                        <h2 className = "text-stone-300">
+                            <Link href = "/writing/romantic-obsession">
+                                romantic obsession
+                            </Link>
+                        </h2>
+                        <p className = "mt-1 text-xs text-stone-400">
+                            your lack of person purpose if causing your romantic obsession
                         </p>
                     </li>
                 </ul>
