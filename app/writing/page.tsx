@@ -44,7 +44,7 @@ export default function WritingPage() {
                             </Link>
                         </h2>
                         <p className = "mt-1 text-xs text-stone-400">
-                            your lack of person purpose if causing your romantic obsession
+                            your lack of personal purpose if causing your romantic obsession
                         </p>
                     </li>
                 </ul>

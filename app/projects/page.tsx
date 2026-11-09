@@ -14,6 +14,18 @@ export default function ProjectsPage() {
             </header>
 
                 <ul className = "mt-6 space-y-4">
+
+                    <li>
+                        <h2 className = "text-stone-300">
+                            <Link href = "/projects/pixefy-me">
+                                pixefy me
+                            </Link>
+                            </h2>
+                            <p className = "mt-1 text-xs text-stone-400">
+                                an ai-powered platform using computer vision and generative AI to turn photos into personalised pixel-art avatars
+                            </p>
+                    </li>
+
                     <li>
                         <h2 className = "text-stone-300">
                             <Link href = "/projects/block-brawl">
