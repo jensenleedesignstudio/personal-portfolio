@@ -15,7 +15,7 @@ export default function Home(){
 
             <p className = "mt-6 leading-relaxed">
               hi! i'm currently studying biomedical engineering at the university of waterloo. 
-              i'm interested in ml and development engineering. i'd love to chat!
+              i'm interested in ml and full stack development. i'd love to chat!
             </p>
         
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
