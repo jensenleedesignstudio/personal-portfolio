@@ -16,6 +16,7 @@ export default function WritingPage() {
                 <ul className = "mt-6 space-y-4">
 
                     <li>
+                        <span className = "reveal-line">
                         <h2 className = "text-stone-300">
                             <Link href = "/writing/my-thoughts-on-uni">
                                 my thoughts on university so far
@@ -24,9 +25,11 @@ export default function WritingPage() {
                         <p className = "mt-1 text-xs text-stone-400">
                             waterloo and the breakdown of my first 2 months 
                         </p>
+                        </span>
                     </li>
 
                     <li>
+                        <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/writing/my-thoughts-on-gaming">
                                 my thoughts on gaming
@@ -35,9 +38,11 @@ export default function WritingPage() {
                         <p className = "mt-1 text-xs text-stone-400">
                             a reflection on gaming and its impact on my life
                         </p>
+                        </span>
                     </li>
 
                     <li>
+                        <span className = "reveal-line" style = {{animationDelay: "1s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/writing/romantic-obsession">
                                 romantic obsession
@@ -46,6 +51,7 @@ export default function WritingPage() {
                         <p className = "mt-1 text-xs text-stone-400">
                             your lack of personal purpose is causing your romantic obsession
                         </p>
+                        </span>
                     </li>
                 </ul>
 

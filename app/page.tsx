@@ -5,7 +5,10 @@ export default function Home(){
       <div className = "mx-auto max-w-[480px]">
 
         <header className = "flex items-center justify-between">
+          
+          <span className = "reveal-line" style = {{animationDelay: "0.8"}}>
           <h1 className = "text-stone-50">jensen lee</h1>
+          </span>
 
           <nav className = "flex gap-6 text-stone-400">
             <a href = "/writing">writing</a>
@@ -14,12 +17,11 @@ export default function Home(){
         </header>
 
             <p className = "mt-6 leading-relaxed">
-              <span className = "reveal-line"> hi! i'm currently studying biomedical engineering at the {" "}
+              <span className = "reveal-line" style = {{animationDelay: "1.3s"}}> 
+                hi! i'm currently studying biomedical engineering at the {" "}
               <mark className = "bg-yellow-200">
               university of waterloo. 
-              </mark>
-              </span>
-              <span className = "reveal-line" style = {{animationDelay: "1s"}}> {" "}
+              </mark> {" "}
               i'm interested in ml and full stack development. i'd love to chat!
               </span>
             </p>
