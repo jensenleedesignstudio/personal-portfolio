@@ -25,7 +25,7 @@ export default function PixefyMePage() {
             github
             </a> 
 
-            <h1 className = "mt-4 text-sm text-stone-400">pixefy me lets users draw on a canvas, upload an image, add written
+            <h1 className = "mt-4 text-sm text-stone-400">pixefy me let's users draw on a canvas, upload an image, add written
                 instructions, and generate publish ready characters from openai. the characters can be converted into 3d models via 
                 stable fast 3d which is viewable directly on the application.
             </h1>
