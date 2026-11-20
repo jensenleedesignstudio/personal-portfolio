@@ -25,7 +25,18 @@ export default function PixefyMePage() {
             github
             </a> 
 
-            <h1 className = "mt-4 text-sm text-stone-400">in progress...</h1>
+            <h1 className = "mt-4 text-sm text-stone-400">pixefy me lets users draw on a canvas, upload an image, add written
+                instructions, and generate publish ready characters from openai. the characters can be converted into 3d models via 
+                stable fast 3d which is viewable directly on the application.
+            </h1>
+
+            <iframe 
+                className = "mt-6 aspect-video w-full rounded"
+                src = "https://www.youtube.com/embed/zSaaSSfwRow?autoplay=1&mute=1&loop=1&playlist=zSaaSSfwRow&playsinline=1"
+                title = "pixefy me import demo"
+                allow = "autoplay"
+                allowFullScreen
+            ></iframe>
 
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
           <a href = "mailto:j2355lee@uwaterloo.ca">email</a>
