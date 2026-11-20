@@ -16,6 +16,9 @@ export default function PixefyMePage() {
                 </h1>
             </header>
 
+            <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
+            <h1 className = "mt-6 text-2xl text-stone-50">pixefy me</h1>
+
             <a
             href = "https://github.com/jensenleedesignstudio/pixefy-me"
             target = "_blank"
@@ -29,7 +32,9 @@ export default function PixefyMePage() {
                 instructions, and generate publish ready characters from openai. the characters can be converted into 3d models via 
                 stable fast 3d which is viewable directly on the application.
             </h1>
+            </span>
 
+            <span className = "reveal-line" style = {{animationDelay: "1s"}}>
             <iframe 
                 className = "mt-6 aspect-video w-full rounded"
                 src = "https://www.youtube.com/embed/zSaaSSfwRow?autoplay=1&mute=1&loop=1&playlist=zSaaSSfwRow&playsinline=1"
@@ -37,6 +42,7 @@ export default function PixefyMePage() {
                 allow = "autoplay"
                 allowFullScreen
             ></iframe>
+            </span>
 
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
           <a href = "mailto:j2355lee@uwaterloo.ca">email</a>

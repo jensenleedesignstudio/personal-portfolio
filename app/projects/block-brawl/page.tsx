@@ -16,6 +16,7 @@ export default function BlockBrawlPage() {
                 </h1>
             </header>
 
+        <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
         <h1 className = "mt-6 text-2xl text-stone-50">block brawl</h1>
 
         <a
@@ -40,7 +41,9 @@ export default function BlockBrawlPage() {
             typescript to translate real-life movements into in-game punches, blocks, and dodges. integrated 
             real-time computer vision, online multiplayer, and a reinforcement learning opponent, focusing on 
             responsive controls and fluid gameplay.</h1>
+        </span>
 
+        <span className = "reveal-line" style = {{animationDelay: "1s"}}>
         <iframe 
             className = "mt-6 aspect-video w-full rounded"
             src = "https://www.youtube.com/embed/x86mDhuBkgU?autoplay=1&mute=1&loop=1&playlist=x86mDhuBkgU&playsinline=1"
@@ -48,7 +51,8 @@ export default function BlockBrawlPage() {
             allow = "autoplay"
             allowFullScreen
         ></iframe>
-        
+        </span>
+
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
           <a href = "mailto:j2355lee@uwaterloo.ca">email</a>
           <a href = "https://www.linkedin.com/in/jensen-lee-33b339319/" target = "_blank" rel = "noopener">linkedin</a>

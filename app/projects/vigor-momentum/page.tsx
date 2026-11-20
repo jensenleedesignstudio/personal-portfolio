@@ -17,6 +17,7 @@ return (
                 </h1>
             </header>
 
+        <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
         <h1 className = "mt-6 text-2xl text-stone-50">vigor momentum</h1>
 
         <a
@@ -41,7 +42,9 @@ return (
         <h1 className = "mt-4 text-sm text-stone-400">a personalised fitness platform using react, typescript, and vite to track workouts, 
             nutrition, recovery, and progress. developed a coaching engine that analyses training performance and recovery to provide 
             personalised recommendations and visualize long-term progress.</h1>
+        </span>
 
+        <span className = "reveal-line" style = {{animationDelay: "1s"}}>
         <iframe 
             className = "mt-6 aspect-video w-full rounded"
             src = "https://www.youtube.com/embed/hiF0ycdNOG8?autoplay=1&mute=1&loop=1&playlist=hiF0ycdNOG8&playsinline=1"
@@ -49,6 +52,7 @@ return (
             allow = "autoplay"
             allowFullScreen
         ></iframe>
+        </span>
         
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
           <a href = "mailto:j2355lee@uwaterloo.ca">email</a>

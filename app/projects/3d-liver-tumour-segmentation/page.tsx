@@ -3,9 +3,9 @@ import Link from "next/link"
 export default function LiverTumourSegmentationPage() {
 
 return (
+    
     <main className = "min-h-screen bg-[#1a1a1a] px-6 py-12 font-mono text-sm text-stone-300">
         <div className = "mx-auto max-w-[480px]">
-
             <header className = "flex items-center justify-between">
                 <h1 className = "text-stone-50">
                     <Link href = "/">jensen lee</Link>
@@ -17,6 +17,7 @@ return (
                 </h1>
             </header>
 
+        <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
         <h1 className = "mt-6 text-2xl text-stone-50">3d liver tumour segmentation</h1>
 
         <a
@@ -31,7 +32,9 @@ return (
         <h1 className = "mt-4 text-sm text-stone-400">a 3d liver and tumour segmentation model using pytorch, 
             monai, and u-net to identify regions in ct scans. developed an end-to-end pipeline for preprocessing, 
             training, and inference, with a focus on reproducibility and segmentation accuracy.</h1>
+        </span>
 
+        <span className = "reveal-line" style = {{animationDelay: "1s"}}>
         <iframe 
             className = "mt-6 aspect-video w-full rounded"
             src = "https://www.youtube.com/embed/NlUQG9ndlI4?autoplay=1&mute=1&loop=1&playlist=NlUQG9ndlI4&playsinline=1"
@@ -39,7 +42,7 @@ return (
             allow = "autoplay"
             allowFullScreen
         ></iframe>
-        
+        </span>
         
         
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
