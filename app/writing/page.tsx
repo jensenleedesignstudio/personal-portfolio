@@ -16,7 +16,20 @@ export default function WritingPage() {
                 <ul className = "mt-6 space-y-4">
 
                     <li>
-                        <span className = "reveal-line">
+                        <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
+                        <h2 className = "text-stone-300">
+                            <Link href = "/writing/the-beauty-of-failure">
+                                the beauty of failure
+                            </Link>
+                        </h2>
+                        <p className = "mt-1 text-xs text-stone-400">
+                            accepting failure, living with failure, thriving with failure
+                        </p>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span className = "reveal-line" style = {{animationDelay: "1s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/writing/my-thoughts-on-uni">
                                 my thoughts on university so far
@@ -29,7 +42,7 @@ export default function WritingPage() {
                     </li>
 
                     <li>
-                        <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
+                        <span className = "reveal-line" style = {{animationDelay: "1.5s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/writing/my-thoughts-on-gaming">
                                 my thoughts on gaming
@@ -42,7 +55,7 @@ export default function WritingPage() {
                     </li>
 
                     <li>
-                        <span className = "reveal-line" style = {{animationDelay: "1s"}}>
+                        <span className = "reveal-line" style = {{animationDelay: "2s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/writing/romantic-obsession">
                                 romantic obsession
@@ -53,8 +66,8 @@ export default function WritingPage() {
                         </p>
                         </span>
                     </li>
+                    
                 </ul>
-
 
             <nav className = "mt-6 flex gap-6 text-stone-600"> 
                 <a href = "mailto:j2355lee@uwaterloo.ca">email</a>
