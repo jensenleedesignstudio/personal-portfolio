@@ -1,8 +1,12 @@
+import MovingBackground from "../components/MovingBackground"; 
 export default function Home(){ 
 
   return (
-    <main className = "min-h-screen bg-[#1a1a1a] px-6 py-12 font-mono text-sm text-stone-300">
-      <div className = "mx-auto max-w-[480px]">
+    <main className = "relative min-h-screen px-6 py-12 font-mono text-sm text-stone-300">
+      
+      <MovingBackground />
+      
+      <div className = "relative z-10 mx-auto max-w-[480px]">
 
         <header className = "flex items-center justify-between">
           
