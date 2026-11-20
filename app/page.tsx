@@ -20,9 +20,9 @@ export default function Home(){
               <span className = "reveal-line" style = {{animationDelay: "1.3s"}}> 
                 hi! i'm currently studying biomedical engineering at the {" "}
               <mark className = "bg-yellow-200">
-              university of waterloo. 
+              university of waterloo 
               </mark> {" "}
-              i'm interested in ml and full stack development. i'd love to chat!
+              . i'm interested in ml and full stack development. i'd love to chat!
               </span>
             </p>
         
