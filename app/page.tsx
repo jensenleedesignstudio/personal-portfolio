@@ -14,11 +14,14 @@ export default function Home(){
         </header>
 
             <p className = "mt-6 leading-relaxed">
-              hi! i'm currently studying biomedical engineering at the {" "}
+              <span className = "reveal-line"> hi! i'm currently studying biomedical engineering at the {" "}
               <mark className = "bg-yellow-200">
               university of waterloo. 
-              </mark>{" "}
+              </mark>
+              </span>
+              <span className = "reveal-line" style = {{animationDelay: "1s"}}> {" "}
               i'm interested in ml and full stack development. i'd love to chat!
+              </span>
             </p>
         
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
