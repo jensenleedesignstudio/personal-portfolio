@@ -25,7 +25,7 @@ export default function Home(){
                 hi! i'm currently studying biomedical engineering at the {" "}
               <mark className = "bg-yellow-200">
               university of waterloo 
-              </mark> {""}
+              </mark>
               . i'm interested in ml and full stack development. i'd love to chat!
               </span>
             </p>
