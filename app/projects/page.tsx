@@ -16,6 +16,7 @@ export default function ProjectsPage() {
                 <ul className = "mt-6 space-y-4">
 
                     <li>
+                        <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/projects/pixefy-me">
                                 pixefy me
@@ -24,9 +25,11 @@ export default function ProjectsPage() {
                             <p className = "mt-1 text-xs text-stone-400">
                                 an ai-powered platform using computer vision and generative AI to turn photos into personalised pixel-art avatars
                             </p>
+                        </span>
                     </li>
 
                     <li>
+                        <span className = "reveal-line" style = {{animationDelay: "1s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/projects/block-brawl">
                                 block brawl
@@ -35,8 +38,10 @@ export default function ProjectsPage() {
                             <p className = "mt-1 text-xs text-stone-400">
                                 a fast pace arcade boxing game using webcam-based controls and reinforced learning opponents
                             </p>
+                        </span>
                     </li>
                     <li>
+                        <span className = "reveal-line" style = {{animationDelay: "1.5s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/projects/3d-liver-tumour-segmentation">
                                 3d liver tumour segmentation
@@ -45,8 +50,10 @@ export default function ProjectsPage() {
                             <p className = "mt-1 text-xs text-stone-400">
                                 a 3d medical imaging project for liver tumour segmentation using deep learning techniques
                             </p>
+                        </span>
                     </li>
                     <li>
+                        <span className = "reveal-line" style = {{animationDelay: "2s"}}>
                         <h2 className = "text-stone-300">
                             <Link href = "/projects/vigor-momentum">
                                 vigor momentum
@@ -55,6 +62,7 @@ export default function ProjectsPage() {
                             <p className = "mt-1 text-xs text-stone-400">
                                 an all-in-one fitness tracking application using large data structures and algorithims
                             </p>
+                        </span>
                     </li>
 
                 </ul>
