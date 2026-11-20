@@ -15,8 +15,8 @@ export default function Home(){
           </span>
 
           <nav className = "flex gap-6 text-stone-400">
-            <a href = "/writing">writing</a>
-            <a href = "/projects">projects</a>
+            <link href = "/writing">writing</link>
+            <link href = "/projects">projects</link>
           </nav>
         </header>
 

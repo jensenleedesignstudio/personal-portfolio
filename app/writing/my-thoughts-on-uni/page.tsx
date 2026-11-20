@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function MyThoughtsOnUniPage() { 
   return (
-    <main className = "min-h-screen bg-[#1a1a1a] px-6 py-12 font-mono text-sm text-stone-300">
+    <main className = "min-h-screen px-6 py-12 font-mono text-sm text-stone-300">
         <div className = "mx-auto max-w-[480px]">
 
             <header className = "flex items-center justify-between">
