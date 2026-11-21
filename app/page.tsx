@@ -1,4 +1,5 @@
 import MovingBackground from "../components/MovingBackground"; 
+import Link from "next/link";
 export default function Home(){ 
 
   return (
@@ -15,8 +16,8 @@ export default function Home(){
           </span>
 
           <nav className = "flex gap-6 text-stone-400">
-            <link href = "/writing">writing</link>
-            <link href = "/projects">projects</link>
+            <Link href = "/writing">writing</Link>
+            <Link href = "/projects">projects</Link>
           </nav>
         </header>
 
