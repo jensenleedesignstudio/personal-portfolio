@@ -31,7 +31,7 @@ export default function Home(){
               </span>
             </p>
         
-        <nav className = "mt-6 flex gap-6 text-stone-600"> 
+        <nav className = "mt-auto flex flex-wrap justify-center gap-6 pt-8 text-stone-600">
           <a className="reveal-line" style={{ animationDelay: "2s" }} href = "mailto:j2355lee@uwaterloo.ca">email</a>
           <a className="reveal-line" style={{ animationDelay: "2.15s" }} href = "https://www.linkedin.com/in/jensen-lee-33b339319/" target = "_blank" rel = "noopener">linkedin</a>
           <a className="reveal-line" style={{ animationDelay: "2.3s" }} href = "https://github.com/jensenleedesignstudio" target = "_blank" rel = "noopener">github</a>
