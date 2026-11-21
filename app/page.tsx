@@ -22,7 +22,7 @@ export default function Home(){
         </header>
 
             <p className = "mt-6 leading-relaxed">
-              <span className = "reveal-line" style = {{animationDelay: "1.3s"}}> 
+              <span className = "reveal-line" style = {{animationDelay: "1s"}}> 
                 hi! i'm currently studying biomedical engineering at the {" "}
               <mark className = "bg-yellow-200">
               university of waterloo 

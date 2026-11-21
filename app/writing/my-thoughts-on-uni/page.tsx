@@ -16,8 +16,11 @@ export default function MyThoughtsOnUniPage() {
                 </h1>
             </header>
 
+            <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
             <h1 className = "mt-4 text-xl text-stone-400">two months in waterloo</h1>
+            </span>
 
+            <span className = "reveal-line" style = {{animationDelay: "1s"}}>
             <h1 className = "mt-4 text-sm text-stone-400">
                 it's been two months. somehow it feels like two weeks and two years at the same time. 
                 <br/><br/>
@@ -69,9 +72,8 @@ export default function MyThoughtsOnUniPage() {
                 <br/><br/>
                 <strong>maybe, just maybe, i'll catch up tommorow. but immma chud out a little first.</strong>
 
-
-
             </h1>
+            </span>
 
 
         <nav className = "mt-6 flex gap-6 text-stone-600"> 

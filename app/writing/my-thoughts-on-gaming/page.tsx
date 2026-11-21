@@ -26,7 +26,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "valorant screenshot"
                         width = {2816}
                         height = {1016}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "0.5s" }}
                     />      
                 </figure>
 
@@ -36,7 +37,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "valorant screenshot"
                         width = {2168}
                         height = {1058}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "0.7s" }}
                     />      
                 </figure>
 
@@ -46,7 +48,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "valorant screenshot"
                         width = {2168}
                         height = {1058}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "0.9s" }}
                     />      
                 </figure>
 
@@ -56,7 +59,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "valorant screenshot"
                         width = {1222}
                         height = {864}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "1.1s" }}
                     />      
                 </figure>
 
@@ -66,7 +70,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "valorant screenshot"
                         width = {771}
                         height = {850}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "1.3s" }}
                     />      
                 </figure>
 
@@ -76,7 +81,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "fortnite screenshot"
                         width = {2168}
                         height = {1058}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "1.5s" }}
                     />      
                 </figure>
 
@@ -86,7 +92,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "fortnite screenshot"
                         width = {2168}
                         height = {1058}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "1.7s" }}
                     />      
                 </figure>
 
@@ -96,7 +103,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "fortnite screenshot"
                         width = {2168}
                         height = {1058}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "1.9s" }}
                     />      
                 </figure>
 
@@ -106,7 +114,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "overwatch screenshot"
                         width = {2168}
                         height = {1058}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "2.1s" }}
                     />      
                 </figure>
 
@@ -116,7 +125,8 @@ export default function MyThoughtsOnGamingPage() {
                         alt = "apex legends screenshot"
                         width = {2168}
                         height = {1058}
-                        className = "block h-auto w-full"
+                        className = "reveal-line h-auto w-full"
+                        style = {{ animationDelay: "2.3s" }}
                     />      
                 </figure>
 

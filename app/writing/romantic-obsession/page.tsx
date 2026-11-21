@@ -16,8 +16,11 @@ export default function RomanticObsessionPage() {
                 </h1>
             </header>
 
+            <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
             <h1 className = "mt-4 text-xl text-stone-400">what is love?</h1>
+            </span>
             
+            <span className = "reveal-line" style = {{animationDelay: "1s"}}>
             <h1 className = "mt-4 text-sm text-stone-400">in today's society we often misinterpret kindness for some sort of "love."
                 a compliment. a smile. a hug. the slightest bit of attention can convince us that there is something deeper beneath the surface.
                 the next day you dream. you imagine the scenarios, overanalysing the interactions. you begin to develop feelings for someone who you barely know. 
@@ -48,6 +51,7 @@ export default function RomanticObsessionPage() {
                 <br/><br/>
                 <strong>that is the beauty of love.</strong>
             </h1>
+            </span>
 
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
           <a href = "mailto:j2355lee@uwaterloo.ca">email</a>

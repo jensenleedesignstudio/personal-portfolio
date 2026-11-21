@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function RomanticObsessionPage() { 
+export default function TheBeautyOfFailurePage() { 
   return (
     <main className = "min-h-screen px-6 py-12 font-mono text-sm text-stone-300">
         <div className = "mx-auto max-w-[480px]">
@@ -16,8 +16,9 @@ export default function RomanticObsessionPage() {
                 </h1>
             </header>
 
-
+            <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
             <h1 className = "mt-4 text-xl text-stone-400">in progress...</h1>
+            </span>
 
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
           <a href = "mailto:j2355lee@uwaterloo.ca">email</a>
