@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function Home(){ 
 
   return (
-    <main className = "relative min-h-screen px-6 py-12 font-mono text-sm text-stone-300">
+    <main className = "relative flex min-h-screen flex-col px-6 py-12 font-mono text-sm text-stone-300">
       
       <MovingBackground />
       
-      <div className = "relative z-10 mx-auto max-w-[480px]">
+      <div className = "relative z-10 mx-auto flex w-full max-w-[480px] flex-1 flex-col">
 
         <header className = "flex items-center justify-between">
           
