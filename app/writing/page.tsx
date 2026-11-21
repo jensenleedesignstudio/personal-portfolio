@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function WritingPage() {
 
     return (
-        <main className = "min-h-screen px-6 py-12 font-mono text-sm text-stone-300">
-            <div className = "mx-auto max-w-[480px]">
+        <main className = "flex min-h-screen flex-col px-6 py-12 font-mono text-sm text-stone-300">
+            <div className = "mx-auto flex w-full max-w-[480px] flex-1 flex-col">
                 
                 <header className = "flex items-center justify-between">
                     <h1 className = "text-stone-50">
@@ -69,7 +69,7 @@ export default function WritingPage() {
                     
                 </ul>
 
-            <nav className = "mt-6 flex gap-6 text-stone-600"> 
+            <nav className = "mt-auto flex flex-wrap justify-center gap-6 pt-8 text-stone-600">
                 <a className="reveal-line" style={{ animationDelay: "2.5s" }} href = "mailto:j2355lee@uwaterloo.ca">email</a>
                 <a className="reveal-line" style={{ animationDelay: "2.65s" }} href = "https://www.linkedin.com/in/jensen-lee-33b339319/" target = "_blank" rel = "noopener">linkedin</a>
                 <a className="reveal-line" style={{ animationDelay: "2.8s" }} href = "https://github.com/jensenleedesignstudio" target = "_blank" rel = "noopener">github</a>
