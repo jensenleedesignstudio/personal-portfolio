@@ -17,7 +17,13 @@ export default function TheBeautyOfFailurePage() {
             </header>
 
             <span className = "reveal-line" style = {{animationDelay: "0.5s"}}>
-            <h1 className = "mt-4 text-xl text-stone-400">in progress...</h1>
+            <h1 className = "mt-4 text-xl text-stone-400">the beauty of failure</h1>
+            </span>
+
+            <span className = "reveal-line" style = {{animationDelay: "1s"}}>
+            <h1 className = "mt-4 text-sm text-stone-400">
+                in progress...
+            </h1>
             </span>
 
         <nav className = "mt-6 flex gap-6 text-stone-600"> 
