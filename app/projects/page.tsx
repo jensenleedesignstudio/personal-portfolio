@@ -67,14 +67,12 @@ export default function ProjectsPage() {
 
                 </ul>
 
-            <span className = "reveal-time" style = {{animationDelay: "2.5s"}}>
             <nav className = "mt-6 flex gap-6 text-stone-600"> 
-                <a href = "mailto:j2355lee@uwaterloo.ca">email</a>
-                <a href = "https://www.linkedin.com/in/jensen-lee-33b339319/" target = "_blank" rel = "noopener">linkedin</a>
-                <a href = "https://github.com/jensenleedesignstudio" target = "_blank" rel = "noopener">github</a>
-                <a href = "https://x.com/__JensenLee_" aria-label = "X profile" target = "_blank" rel = "noopener">𝕏</a>
+                <a className="reveal-line" style={{ animationDelay: "2.5s" }} href = "mailto:j2355lee@uwaterloo.ca">email</a>
+                <a className="reveal-line" style={{ animationDelay: "2.65s" }} href = "https://www.linkedin.com/in/jensen-lee-33b339319/" target = "_blank" rel = "noopener">linkedin</a>
+                <a className="reveal-line" style={{ animationDelay: "2.8s" }} href = "https://github.com/jensenleedesignstudio" target = "_blank" rel = "noopener">github</a>
+                <a className="reveal-line" style={{ animationDelay: "2.95s" }} href = "https://x.com/__JensenLee_" aria-label = "X profile" target = "_blank" rel = "noopener">𝕏</a>
             </nav>
-            </span>
 
         </div>
     </main>
