@@ -69,12 +69,14 @@ export default function WritingPage() {
                     
                 </ul>
 
+            <span className = "reveal-time" style = {{animationDelay: "2.5s"}}>
             <nav className = "mt-6 flex gap-6 text-stone-600"> 
                 <a href = "mailto:j2355lee@uwaterloo.ca">email</a>
                 <a href = "https://www.linkedin.com/in/jensen-lee-33b339319/" target = "_blank" rel = "noopener">linkedin</a>
                 <a href = "https://github.com/jensenleedesignstudio" target = "_blank" rel = "noopener">github</a>
                 <a href = "https://x.com/__JensenLee_" aria-label = "X profile" target = "_blank" rel = "noopener">𝕏</a>
             </nav>
+            </span>
             
             </div>
         </main>
